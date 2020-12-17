@@ -10,7 +10,7 @@ namespace InterfVezb4
     {
         protected float prAlkohola;
 
-        public Pice (string naz, float prA, int cn) : base (naz, cn)
+        public Pice (string naz, int cn, float prA) : base (naz, cn)
         {
             prAlkohola = prA;
         }

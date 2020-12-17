@@ -10,7 +10,7 @@ namespace InterfVezb4
     {
         static void Main(string[] args)
         {
-            Artikal a1 = new Pice( "Pivo", 45, 4);
+            Artikal a1 = new Pice( "Pivo", 45, 5f);
             Artikal a2 = new Hrana("Meso", 55, 1);
             Artikal a3 = new Hrana("Celer", 60, 100);
 
